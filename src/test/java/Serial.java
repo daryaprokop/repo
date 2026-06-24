@@ -3,7 +3,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-
 public class Serial {
     private String name;
     private String russianName;

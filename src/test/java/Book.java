@@ -3,7 +3,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-
 public class Book { //класс
     private String author;
     private String name;
@@ -22,7 +21,3 @@ public class Book { //класс
         System.out.println("Название книги " + name);
     }
 }
-
-
-
-
