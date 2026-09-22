@@ -26,5 +26,15 @@ public class Main {
         System.out.println(UITests.tms); // вызываем статичную переменную по названию класса
         UITests.getRegress();
 
+        Notifications email = new EmailNotifications();
+        Notifications sms = new SmsNotifications();
+        Notifications push = new PushNotifications();
+
+        email.send();
+        sms.send();
+        push.send();
+
+        sms.error();
+
         }
 }
