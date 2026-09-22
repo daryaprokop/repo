@@ -26,5 +26,12 @@ public class Main {
         System.out.println(UITests.tms); // вызываем статичную переменную по названию класса
         UITests.getRegress();
 
+        Movie mirror = new HorrorMovie("Зеркало",103, 8);
+        mirror.getRecommendation();
+        mirror.watch();
+
+        ActionMovie taxi = new ActionMovie("Такси",90,7);
+        taxi.watch();
+        taxi.getRecommendation();
         }
 }
